@@ -22,7 +22,7 @@
 > <br>😥 단, large/diverse data가 있을 때만...!
 
 > 그럼 적은 data만 있다면...?
-> prior experience로 new data를 빠르게 학습해보자! (e.g. few-shot learning)
+> <br>prior experience로 new data를 빠르게 학습해보자! (e.g. few-shot learning)
 
 <br>
 
@@ -32,3 +32,9 @@
 > - data가 long tail이다
 > - 빨리 new data를 학습하고 싶다
 
+<br>
+
+#### multi-task가 뭔데요?
+> objects, people, objectives, lighting conditions, words,languages에 따라 different task가 다양해질 수 있음
+> > ==> 일반적으로 우리가 생각하는 **task**뿐만 아니라 결과에 영향을 미치는 다른 요소(task)들이 많다!
+> 
