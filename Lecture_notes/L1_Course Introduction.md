@@ -1,4 +1,4 @@
-### [📔 L1_Coures_Introduction]
+## [📔 L1_Coures_Introduction]
 
 #### robot(agents)가 real world의 skill을 배우게 하자!
 > _Q. 왜 하필 robot?_ 
