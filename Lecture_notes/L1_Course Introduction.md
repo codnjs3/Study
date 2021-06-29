@@ -65,6 +65,9 @@
 > 사실 Multi-task & Meta learning에 대해서는 오래 전부터 연구가 진행되어 왔으나...
 > - **powerful한 neural network function approximator**가 출현한 이 시점에서는 더 중요!(+ computing power)
 > - 통계적으로, machine learning research에 있어 이러한 알고리즘들이 점점 더 많은 역할을 함
-> > 이전에 deep learning이 크게 발전했죠! 단, **실현 불가능한 정도의 광범위한 setting**에서... (e.g. 1.2백만 image와 label들, 40.8백만 paired sentences, etc)
-> > <br><br>medical image처럼 data가 적은 domain
-> > <br>e.g. 
+> > 이전에 deep learning이 크게 발전함! 단, **실현 불가능한 정도의 광범위한 setting**에서... (e.g. 1.2백만 image와 label들, 40.8백만 paired sentences, etc)
+> > <br><br>🌟 medical image처럼 **data가 적은 domain**에서도 **deep learning이 성공적으로 적용**되기 위해서는 Multi-task & Meta learning이 아주 중요하다!
+> > <br>e.g.
+> > - 간질 치료에서의 reinforcement learning: 1시간이 채 되지 않는 data
+> > - robotic manipulation: 15분 이하의 data
+> - 그리고, 아직 이 분야의 풀리지 않은 문제가 많기 때문에 재밌을 것(?)이다~
