@@ -1,3 +1,3 @@
-### 2021_Meta_Learning_Study
+### Study Notes
 
 it's my note ! 🤓
