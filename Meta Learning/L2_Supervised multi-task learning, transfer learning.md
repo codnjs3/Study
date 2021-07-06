@@ -15,7 +15,7 @@
 
 <br>
 
-#### Task Descriptor
+#### Basic Structure & Task Descriptor
  <img src="https://user-images.githubusercontent.com/33504288/124550449-9e156000-de6b-11eb-8f9c-d46bb4e73b0e.png" width="480" height="220"> <img src="https://user-images.githubusercontent.com/33504288/124551325-eaad6b00-de6c-11eb-87a9-2fe201f71e0d.png" width="200" height="60">
 
 
@@ -25,9 +25,24 @@
 > > : 또는! **meta data**를 제공하는 것 (e.g. personalization(user features/attributes), language description of the task, formal specifications of the task)
 > <br>
 > 💡 자, 그럼 Multi-task learning에서 우리의 목표는 두 가지!<br>
-> Q1. **task descriptor Zi**를 어떻게 정할 것인가?<br>
-> Q2. **objective**를 어떻게 optimize할 것인가?
+> Q1. task descriptor Zi를 어떻게 conditioning 할 것인가?<br>
+> Q2. objective를 어떻게 optimize할 것인가?
 
 <br>
 
-#### 
+#### 'How to condition on Zi'  ==  'How & Where to share parameters'
+> 전체 parameter(θ)를 shared parameter(θsh)와 task-specific parameter(θi)로 나누자!<br>
+> objective: <img src="https://user-images.githubusercontent.com/33504288/124554096-88566980-de70-11eb-8c45-725e91adb10d.png" width="200" height="60">
+> > **shared parameter**: network에서 task descriptor 바로 뒤에 오는 parameter
+
+<br>
+
+#### Conditioning
+> *여기서 task descriptor는 one-hot encoding vector* <br>
+> <img src="https://user-images.githubusercontent.com/33504288/124559853-1df4f780-de77-11eb-8b71-9dc315f96585.png" width="750" height="180"> <br>
+> > But, 두 방법은 사실 같다는 점...! <br>
+> > <img src="https://user-images.githubusercontent.com/33504288/124558210-51368700-de75-11eb-8aa7-0b8d320bcc3c.png" width="320" height="150"> <br>
+> 
+> <img src="https://user-images.githubusercontent.com/33504288/124560095-66acb080-de77-11eb-838c-8103401a8410.png" width="700" height="200"> <br>
+> > multiplicative conditioning이 좋음
+> <img src="https://user-images.githubusercontent.com/33504288/124560095-66acb080-de77-11eb-838c-8103401a8410.png" width="700" height="200"> <br>
