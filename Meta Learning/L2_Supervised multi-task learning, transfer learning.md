@@ -1,4 +1,6 @@
 ## [📔 L2_Supervised multi-task learning, transfer learning]
+✓ [lecture video](https://youtu.be/6stKGH6zI8g)
+
 
 #### 'Task'?
 > Definition: <img src="https://user-images.githubusercontent.com/33504288/124423334-dfd8d480-dd9f-11eb-862b-45f6ef9d8db6.png" width="200" height="30">
@@ -60,4 +62,9 @@
 > > 👍🏻 결과적으로 더 많은 양의 parameter sharing이 가능해짐! <br>
 > > 👎🏻 이건 또 다른 design decisions/hyperparameter이 됨... <br>
 
-> - **Overffiting**: 
+> - **Overffiting**
+> > 덜 share해서 발생 => **더 share**하면 됨!
+
+<br>
+
+#### + Case study: Make recommendations for YouTube
