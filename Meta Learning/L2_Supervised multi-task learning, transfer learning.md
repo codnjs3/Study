@@ -45,4 +45,3 @@
 > 
 > <img src="https://user-images.githubusercontent.com/33504288/124560095-66acb080-de77-11eb-838c-8103401a8410.png" width="700" height="200"> <br>
 > > multiplicative conditioning이 좋음
-> <img src="https://user-images.githubusercontent.com/33504288/124560095-66acb080-de77-11eb-838c-8103401a8410.png" width="700" height="200"> <br>
