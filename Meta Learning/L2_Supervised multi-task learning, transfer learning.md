@@ -90,5 +90,6 @@ ______
 > 💡 그럼 meta-train data를 **meta-parameter**로 바꾸자!
 <img src="https://user-images.githubusercontent.com/33504288/124577646-6d8fef00-de88-11eb-972e-95d313ea54de.png" width="700" height="180">
 
-> 결국, 정의하자면
-<img src="https://user-images.githubusercontent.com/33504288/124578149-eb53fa80-de88-11eb-9346-0ccc6402878e.png" width="550" height="80">
+> 이해를 위한 simple example
+<img src="https://user-images.githubusercontent.com/33504288/124578816-8351e400-de89-11eb-88db-43ec0d085f8e.png" width="550" height="250">
+> 여기서의 key idea(principal rule of mata-learning): "test and train conditions must match"
