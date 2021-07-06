@@ -44,4 +44,20 @@
 > > <img src="https://user-images.githubusercontent.com/33504288/124558210-51368700-de75-11eb-8aa7-0b8d320bcc3c.png" width="320" height="150"> <br>
 > 
 > <img src="https://user-images.githubusercontent.com/33504288/124560095-66acb080-de77-11eb-838c-8103401a8410.png" width="700" height="200"> <br>
-> > multiplicative conditioning이 좋음
+> 
+> 안타깝게도 이런 방법들은 **problem dependent**하고, 문제에 대한 **intuition이나 지식**에 largely guided 됨
+
+<br>
+
+#### Challenges in Multi-task learning
+> - **Negative transfer**: independent network가 성능이 더 좋은 경우
+> > '**optimization challenges**' & '**limited representational capacity**'때문! <br>
+> > : 한 task에 대한 gradient가 다른 task의 gradient 때문에 변한다거나, 각 task가 다른 비율(속도)로 학습하는 경우
+> 
+> negative transfer가 발생했을 때, task 간의 **share를 줄이자**! <br>
+> <img src="https://user-images.githubusercontent.com/33504288/124566083-ad9da480-de7d-11eb-9dbe-5e30c817b693.png" width="240" height="70"> <br>
+> 'soft parameter sharing' term: 서로 다른 task의 task-specific parameter를 비슷하게 만들어줌 
+> > 👍🏻 결과적으로 더 많은 양의 parameter sharing이 가능해짐! <br>
+> > 👎🏻 이건 또 다른 design decisions/hyperparameter이 됨... <br>
+
+> - **Overffiting**: 
