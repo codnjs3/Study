@@ -67,4 +67,4 @@
 
 <br>
 
-#### + Case study: Make recommendations for YouTube
+#### + Case study: [Make recommendations for YouTube](https://dl.acm.org/doi/pdf/10.1145/3298689.3346997?casa_token=5I-bu7KVMXkAAAAA:rZiBs9D3FrXAUzL3E11jcegSnScsc_lGLb8m9WSIiNLDqZ7kBrhw5ILECWQJ-zPxZmRhlqtgpZN1)
