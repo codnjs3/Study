@@ -89,3 +89,6 @@ ______
 > 근데, new task를 학습할 때마다 meta-train data를 쓰고 싶진 않은데... <br>
 > 💡 그럼 meta-train data를 **meta-parameter**로 바꾸자!
 <img src="https://user-images.githubusercontent.com/33504288/124577646-6d8fef00-de88-11eb-972e-95d313ea54de.png" width="700" height="180">
+
+> 결국, 정의하자면
+<img src="https://user-images.githubusercontent.com/33504288/124578149-eb53fa80-de88-11eb-9346-0ccc6402878e.png" width="550" height="80">
