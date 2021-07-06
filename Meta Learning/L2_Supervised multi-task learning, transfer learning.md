@@ -68,3 +68,24 @@
 <br>
 
 #### + Case study: [Make recommendations for YouTube](https://dl.acm.org/doi/pdf/10.1145/3298689.3346997?casa_token=5I-bu7KVMXkAAAAA:rZiBs9D3FrXAUzL3E11jcegSnScsc_lGLb8m9WSIiNLDqZ7kBrhw5ILECWQJ-zPxZmRhlqtgpZN1)
+______
+#### Meta-Learning
+> - **Mechanistic** view
+> > : network 모델이 전체 dataset 읽고, training에 meta-dataset(각기 다른 task에 대한 여러 dataset으로 구성) 사용 <br>
+> > 🌟 이 관점은 meta-learning algo를 수월하게 실험하도록 함!
+> 
+> - **Probabilistic** view
+> > : set of task에서 사전정보를 추출하고, 이 사전정보와 (small) training set을 사용해서 사후 parameter 추론 <br>
+> > 🌟 이 관점은 meta-learning algo를 수월하게 이해하도록 함!
+
+<br>
+
+#### Problem definition
+  <img src="https://user-images.githubusercontent.com/33504288/124573939-f60c9080-de84-11eb-982b-b0269c369fed.png" width="550" height="200">
+
+> 💡 이 때, dataset이 작다면...? **additional data**를(meta-train data) 추가할 순 없을까? <br>
+ <img src="https://user-images.githubusercontent.com/33504288/124576012-dd9d7580-de86-11eb-917d-b7f2013159c1.png" width="480" height="240">
+
+> 근데, new task를 학습할 때마다 meta-train data를 쓰고 싶진 않은데... <br>
+> 💡 그럼 meta-train data를 **meta-parameter**로 바꾸자!
+<img src="https://user-images.githubusercontent.com/33504288/124577646-6d8fef00-de88-11eb-972e-95d313ea54de.png" width="700" height="180">
