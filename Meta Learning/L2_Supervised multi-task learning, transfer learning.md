@@ -33,7 +33,8 @@
 > 'How to condition on Zi'  ==  'How & Where to share parameters'
 > 전체 parameter(θ)를 shared parameter(θsh)와 task-specific parameter(θi)로 나누자!<br>
 > objective: <img src="https://user-images.githubusercontent.com/33504288/124554096-88566980-de70-11eb-8c45-725e91adb10d.png" width="200" height="60">
-> > **shared parameter**: network에서 task descriptor 바로 뒤에 오는 parameter
+> > **shared parameter**: network에서 task descriptor 앞의 parameter
+> > **task-specific parameter**: network에서 task descriptor 바로 뒤에 오는 parameter
 
 > - **Conditioning 종류** <br>
 > *여기서 task descriptor는 one-hot encoding vector* <br>
